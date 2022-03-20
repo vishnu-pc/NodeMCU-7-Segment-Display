@@ -15,28 +15,40 @@ Badges
 How to Contribute to the Project
 Include Tests -->
 
-# NodeMCU 7-Segment Wifi Controlled Display
+# NodeMCU 7-Segment WI-FI Controlled Display
 
-> This is a project built to controll an LED7-Segment Display Display on WIFI enabled devices, over an internal network using the ESP-8266 module inbuilt on the NodeMCU board.
+> This is a project built to controll an LED7-Segment Display Display on WI-FI enabled devices, over an internal network using the ESP-8266 module inbuilt on the NodeMCU board.
 
 ## Table of Contents
 
 - [Pre-requisites](#pre-requisites)
-- [Build](#build)
-- [Install](#install)
+- [IDE-Configuration](#IDE-Configuration)
+- [Setup](#Setup)
+- [Code](#Code)
 - [Usage](#usage)
-- [API](#api)
+<!-- - [API](#api)
 - [Contribute](#contribute)
-- [License](#license)
+- [License](#license) -->
 
 ## Pre-requisites
 
-- Programming board for the ESP board (Not required for NodeMCU and other USB enabled boards)
-- Driver for serial programmer
-- Arduino IDE with ESP8266 board Utils
-- SPIFFS plugin for IDE (Downloadable on the internet)
+- NodeMCU Module
+- Micro USB Cable
+- Bread Board
+- 10 - Male to Male Jumper Cables
+- System with Arduino IDE installed
 
-## Build
+## IDE-Configuration
+
+[Procedure] (https://www.instructables.com/Steps-to-Setup-Arduino-IDE-for-NODEMCU-ESP8266-WiF/)
+
+![circuit for ESP 01](./images/IDE-Configuration.png)
+
+~SPIFFS plugin for IDE (Downloadable on the internet)~
+
+- Ensure that the `Flash Size` under the `Tools` menu is selected for atleast `512K SPIFFS` as this is where the webpage resides.
+
+## IDE-Configuration
 
 First we must build the circuitry for the module. This project used the ESP 01 version of the ESP8266 board. A simpler circuit can be re-adopted for other versions of the board such as the NodeMCU's.
 
@@ -58,13 +70,13 @@ Install the IDE, boards and Plugins. Select the appropriate board (`Generic ESP8
 
 The data folder must be a flat folder as the file system of ESP boards does not support folder structures
 
-## API
+<!-- ## API
 
 ### Dimming
 
 1. ### GET /dim
 
-   Parameters  
+   Parameters
    value={dimming_value} (0 to 1023) : Sets the amount of dimming to apply to the light.
 
    ```sh
@@ -84,9 +96,9 @@ The Sleep timer currently gets deactivated anytime the Dimming or Power On state
 
 1. ### GET /time
 
-   Parameters  
-   sec={#} : Set the number of seconds to countdown before lamp switches off  
-   min={#} : Set the number of minutes to countdown before lamp switches off  
+   Parameters
+   sec={#} : Set the number of seconds to countdown before lamp switches off
+   min={#} : Set the number of minutes to countdown before lamp switches off
    hour={#} : Set the number of Hours to countdown before lamp switches off
 
    The sum of all three parameters in seconds is used to set the sleep timer. All three parameters are optional
@@ -106,4 +118,4 @@ PRs accepted.
 
 ## License
 
-[MIT © Ashwin P Chandran.](./LICENSE)
+[MIT © Ashwin P Chandran.](./LICENSE) -->
