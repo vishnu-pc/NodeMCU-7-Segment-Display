@@ -1,6 +1,6 @@
 # NodeMCU 7-Segment WI-FI Controlled Display
 
-> This is a project built to controll an LED7-Segment Display Display on WI-FI enabled devices, over an internal network using the ESP-8266 module inbuilt on the NodeMCU board.
+> This is a project built to controll an LED 7-Segment Display Display on WI-FI enabled devices, over an internal network using the ESP-8266 module inbuilt on the NodeMCU board.
 
 ## Table of Contents
 
@@ -65,12 +65,13 @@ Client disonnected
 - Connect to the given url using browser.
 
 > Note: Baud rate must be the same in Serial Monitor and Code (Serial.begin()).
+
 > Note: Both NodeMCU and Connecting browser/device must be on the same network.
 
 - Select number and this will be displayed on seven segment LED display.
 
 ---
 
-Happy Coding
+:tada: **Happy Coding** :tada:
 
 ---
