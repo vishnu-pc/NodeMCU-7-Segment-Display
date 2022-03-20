@@ -33,6 +33,7 @@ Include Tests -->
 ## Pre-requisites
 
 - NodeMCU Module
+- Common Anode 7-Segment Dispaly
 - Micro USB Cable
 - Bread Board
 - 10 - Male to Male Jumper Cables
@@ -40,21 +41,33 @@ Include Tests -->
 
 ## IDE-Configuration
 
-[Procedure] (https://www.instructables.com/Steps-to-Setup-Arduino-IDE-for-NODEMCU-ESP8266-WiF/)
+Follow this [Procedure](https://www.instructables.com/Steps-to-Setup-Arduino-IDE-for-NODEMCU-ESP8266-WiF/) configure the IDE according to the requirements.
 
-![circuit for ESP 01](./images/IDE-Configuration.png)
+![IDE Configuration](./images/IDE-Configuration.png)
 
-~SPIFFS plugin for IDE (Downloadable on the internet)~
+- _SPIFFS plugin for IDE (Downloadable on the internet)_
 
-- Ensure that the `Flash Size` under the `Tools` menu is selected for atleast `512K SPIFFS` as this is where the webpage resides.
+- _Ensure that the `Flash Size` under the `Tools` menu is selected for atleast `512K SPIFFS` as this is where the webpage resides._
 
-## IDE-Configuration
+## SETUP
 
-First we must build the circuitry for the module. This project used the ESP 01 version of the ESP8266 board. A simpler circuit can be re-adopted for other versions of the board such as the NodeMCU's.
+The circutry must be connected according to the images below.
 
-![circuit for ESP 01](./images/circuit.png)
+### NodeMCU 1.0 PIN-OUT Diagram
 
-Ensure that the ESP module is removeable as this circuit does not have the provision to be programmed
+![NodeMCU Pinout](./images/NodeMCU-Pinout.png)
+
+### 7 Segment LED Circut Diagram
+
+![7SD Circut](./images/7SD-Circut.png)
+
+> Note: We are using 7 Segment LED in common Anode configuration. Learn more about different kinds of 7 Segment Display combinations [here](https://www.engineersgarage.com/common-anode-and-cathode-7-segment-display/)
+
+### Circut Connection
+
+![Overall Circut](./images/Circut-Connection.jpeg)
+
+> Note: TX pin must not be used as a GPIO pin, as it will cause the text in Arduino Serial Monitor to be unreadable.
 
 ## Install
 
