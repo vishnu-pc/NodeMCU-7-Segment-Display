@@ -59,13 +59,13 @@ The circutry must be connected according to the images below.
 
 ### Common Anode 7-Segment LED Circut Configuration
 
-<img src="./images/7SD-Circut.png" width="500" height="500" alt="7SD Circut">
+<img src="./images/7SD-Circut.png" width="50%" height="50%" alt="7SD Circut">
 
 > Note: We are using 7 Segment LED in common Anode configuration. Learn more about different kinds of 7 Segment Display combinations [here](https://www.engineersgarage.com/common-anode-and-cathode-7-segment-display/)
 
 ### Circut Connection
 
-<img src="./images/Circut-Connection.jpeg" width="500" height="500" alt="Overall Circut">
+<img src="./images/Circut-Connection.jpeg" width="50%" height="50%" alt="Overall Circut">
 
 > Note: TX pin must not be used as a GPIO pin, as it will cause the text in Arduino Serial Monitor to be unreadable.
 
