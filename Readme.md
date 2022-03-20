@@ -41,7 +41,7 @@ Include Tests -->
 
 ## IDE-Configuration
 
-Follow this [Procedure](https://www.instructables.com/Steps-to-Setup-Arduino-IDE-for-NODEMCU-ESP8266-WiF/) configure the IDE according to the requirements.
+Follow this [Procedure](https://www.instructables.com/Steps-to-Setup-Arduino-IDE-for-NODEMCU-ESP8266-WiF/) to configure the IDE according to the requirements.
 
 ![IDE Configuration](./images/IDE-Configuration.png)
 
@@ -57,13 +57,15 @@ The circutry must be connected according to the images below.
 
 ![NodeMCU Pinout](./images/NodeMCU-Pinout.png)
 
-### 7 Segment LED Circut Diagram
+### Common Anode 7-Segment LED Circut Configuration
 
 ![7SD Circut](./images/7SD-Circut.png)
 
 > Note: We are using 7 Segment LED in common Anode configuration. Learn more about different kinds of 7 Segment Display combinations [here](https://www.engineersgarage.com/common-anode-and-cathode-7-segment-display/)
 
 ### Circut Connection
+
+<img src="./images/Circut-Connection.jpeg" width="200" height="200">
 
 ![Overall Circut](./images/Circut-Connection.jpeg)
 
