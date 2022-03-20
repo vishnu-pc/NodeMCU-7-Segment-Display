@@ -65,9 +65,7 @@ The circutry must be connected according to the images below.
 
 ### Circut Connection
 
-<img src="./images/Circut-Connection.jpeg" width="200" height="200">
-
-![Overall Circut](./images/Circut-Connection.jpeg)
+<img src="./images/Circut-Connection.jpeg" width="50%" height="10%" alt="Overall Circut">
 
 > Note: TX pin must not be used as a GPIO pin, as it will cause the text in Arduino Serial Monitor to be unreadable.
 
