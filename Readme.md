@@ -1,6 +1,6 @@
-# NodeMCU 7-Segment WI-FI Controlled Display
+# NodeMCU Seven-Segment WI-FI Controlled Display
 
-> This is a project built to controll an LED 7-Segment Display Display on WI-FI enabled devices, over an internal network using the ESP-8266 module inbuilt on the NodeMCU board.
+> This is a project built to controll an LED Seven-Segment Display Display on WI-FI enabled devices, over an internal network using the ESP-8266 module inbuilt on the NodeMCU board.
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@
 ## Pre-requisites
 
 - NodeMCU Module
-- Common Anode 7-Segment Dispaly
+- Common Anode Seven-Segment Dispaly
 - Micro USB Cable
 - Bread Board
 - 10 - Male to Male Jumper Cables
@@ -36,11 +36,11 @@ The circutry must be connected according to the images below.
 
 <img src="./images/NodeMCU-Pinout.png" width="50%" height="50%" alt="NodeMCU Pinout">
 
-### Common Anode 7-Segment LED Circut Configuration
+### Common Anode Seven-Segment LED Circut Configuration
 
 <img src="./images/7SD-Circut.png" width="50%" height="50%" alt="7SD Circut">
 
-> Note: We are using 7 Segment LED in common Anode configuration. Learn more about different kinds of 7 Segment Display combinations [here](https://www.engineersgarage.com/common-anode-and-cathode-7-segment-display/)
+> Note: We are using Seven Segment LED in common Anode configuration. Learn more about different kinds of Seven Segment Display combinations [here](https://www.engineersgarage.com/common-anode-and-cathode-7-segment-display/)
 
 ### Circut Connection
 
